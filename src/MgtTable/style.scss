@@ -23,3 +23,37 @@
     cursor: pointer !important;
   }
 }
+
+.member-modal {
+  .modal-content {
+    background-color: $dark;
+    color: white;
+  }
+  .modal-footer {
+    .btn {
+      padding: 0.2rem 0.75rem !important;
+    }
+  }
+  .close {
+    text-shadow: none !important;
+    &:hover {
+      color: black;
+    }
+  }
+  .MemberForm {
+    label {
+      margin-bottom: 0px;
+    }
+    input,
+    select {
+      height: calc(1rem + 0.75rem + 2px);
+    }
+    input,
+    textarea {
+      &:disabled {
+        background-color: $gray-600;
+        border-color: $gray-800;
+      }
+    }
+  }
+}

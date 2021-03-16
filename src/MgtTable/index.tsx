@@ -9,7 +9,7 @@ import {
   Button
 } from 'reactstrap'
 import { IMember } from '../../types'
-import { MemberForm } from '../MemberForm'
+import { MemberForm } from './MemberForm'
 import { Division } from './Division'
 
 import './style.scss'
