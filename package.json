@@ -2,7 +2,7 @@
   "name": "example",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "dbrudnicki <dbrudnicki@nmetric.com>",
+  "author": "rene-grigori <rene.tstsocal@gmail.com.com>",
   "license": "MIT",
   "scripts": {
     "start": "parcel serve ./public/index.html --port=1235",
