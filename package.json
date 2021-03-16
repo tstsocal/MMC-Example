@@ -1,0 +1,33 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "dbrudnicki <dbrudnicki@nmetric.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./public/index.html --port=1235",
+    "clean": "rm -rf node_modules & rm -rf .parcel-cache & rm -rf dist && yarn"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reactstrap": "^8.9.0"
+  },
+  "devDependencies": {
+    "@parcel/resolver-default": "^2.0.0-alpha.3",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/reactstrap": "^8.7.2",
+    "bootstrap": "^4.6.0",
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.32.8"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}
